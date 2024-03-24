@@ -5,6 +5,12 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# ~~~~~~~~~~~~~ Tmux ~~~~~~~~~~~~~ #
+# Either start a new sessios or attach to a previous one if it exists
+[ -z "$TMUX" ] && { tmux attach || exec tmux new-session; }
+# alias
+alias t='tmux'
+
 # ~~~~~~~~~~~~~ Environment Variables ~~~~~~~~~~~~~ #
 
 export VISUAL=nvim
@@ -26,9 +32,6 @@ alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
 alias la='ls -la --color=auto'
 alias tree='tree -C'
-
-alias t='tmux'
-alias ta='tmux attach'
 
 # dev
 alias k='kubectl'
