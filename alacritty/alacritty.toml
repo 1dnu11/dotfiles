@@ -2,10 +2,10 @@
 import = ["~/dotfiles/alacritty/themes/themes/gruvbox_material_hard_dark.toml"]
 
 [font]
-size = 10
+size = 11
 
 [font.normal]
-family = "FiraCode"
+family = "Hack"
 
 [window]
 decorations = "none"
