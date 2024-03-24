@@ -1,5 +1,5 @@
 # Themes from: https://github.com/alacritty/alacritty-theme
-import = ["~/dotfiles/alacritty/themes/themes/gruvbox_material_hard_dark.toml"]
+import = ["~/dotfiles/alacritty/theme/gruvbox_material_hard_dark.toml"]
 
 [font]
 size = 11
