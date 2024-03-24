@@ -25,3 +25,8 @@ alias tree='tree -C'
 eval "$(starship init bash)"
 
 
+# ~~~~~~~~~~~~~ SSH ~~~~~~~~~~~~~ #
+
+eval "$(ssh-agent -s)" > /dev/null
+ssh-add -q ~/.ssh/1dnu11g1thub
+
