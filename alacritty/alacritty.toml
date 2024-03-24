@@ -1,0 +1,15 @@
+# Themes from: https://github.com/alacritty/alacritty-theme
+import = ["~/dotfiles/alacritty/themes/themes/gruvbox_material_hard_dark.toml"]
+
+[font]
+size = 10
+
+[font.normal]
+family = "FiraCode"
+
+[window]
+decorations = "none"
+
+[window.padding]
+x = 7
+y = 0
