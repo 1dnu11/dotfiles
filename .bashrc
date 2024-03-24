@@ -18,6 +18,7 @@ alias off='poweroff'
 alias boot='reboot'
 alias e='exit'
 alias c='clear'
+alias v='nvim'
 
 # ls
 alias l='ls --color=auto'
